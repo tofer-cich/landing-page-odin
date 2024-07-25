@@ -2,6 +2,8 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
+    padding: 0 232px;
+    margin: 0;
 }
 
 #beach-img {
@@ -10,15 +12,17 @@ body {
 }
 
 .info-pic {
-    width: 200px;
+    width: 180px;
     height: auto;
     border: 3px solid rgb(31, 132, 190);
     border-radius: 15px;
 }
 
 ul {
+    display: flex;
     margin: 0;
     padding: 0;
+    gap: 24px;
 }
 
 li {
@@ -28,6 +32,7 @@ li {
 .header-container,
 .footer {
     background-color: #1F2937;
+    margin: 0;
 }
 
 .header-logo {
@@ -36,6 +41,31 @@ li {
     font-style: normal;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 210px 0;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 210px;
+    margin: 120px 0 120px;
+}
+
+.hero-container div {
+    max-width: 450px;
+    flex-wrap: wrap;
+}
+
+.hero-container button {
+    margin-top: 10px;
+    width: 128px;
+    padding: 7px 0;
 }
 
 a {
@@ -62,19 +92,90 @@ a {
 button {
     background-color: #3882F6;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 .information-container {
     background-color: white;
+    text-align: center;
+}
+
+.information-main-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 45px 0;
+}
+
+.information-secondary-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5d5e61;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    margin-bottom: 120px;
+}
+
+.card {
+    max-width: 170px;
+    text-align: center;
 }
 
 .quote-container {
     background-color: #E5E7EB;
 }
 
+.quote-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: oblique;
+    color: #1F2937;
+}
+
+.quote-signature-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #1F2937;
+}
+
 .sign-up-container {
     background-color: white;
+}
+
+.sign-up-banner {
+    background-color: #3882F6;
+}
+
+.call-main-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 480;
+    font-style: normal;
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.call-secondary-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-container button {
+    border: 2px solid #F9FAF8;
 }
 
 
