@@ -162,10 +162,29 @@ button {
 
 .sign-up-container {
     background-color: white;
+    padding: 80px 210px;
 }
 
 .sign-up-banner {
     background-color: #3882F6;
+    border-radius: 7px;
+    display: flex;
+    padding: 50px 120px;
+    justify-content: space-between;
+}
+
+.sign-up-banner > button {
+    min-width: 150px;
+    min-height: 20px;
+    /* padding: 0 25px; */
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
 }
 
 .call-main-text {
