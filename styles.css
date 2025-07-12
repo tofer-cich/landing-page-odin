@@ -26,10 +26,6 @@ body {
     }
 }
 
-#beach-img {
-    /* height: 100%; */
-}
-
 .info-pic {
     width: 180px;
     height: auto;
@@ -57,6 +53,10 @@ li {
 @media (min-width: 768px) {
     .nav {
         min-width: 20rem;
+    }
+
+    .sign-up-banner {
+        padding: 2rem 4rem;
     }
 }
 
@@ -92,6 +92,18 @@ li {
 
     .hero-container img {
         display: none;
+    }
+
+    .sign-up-banner {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .sign-up-banner button {
+        margin-top: 1rem;
+        width: 3rem;
+        align-self: center;
     }
 }
 
@@ -220,16 +232,19 @@ button {
     background-color: #3882F6;
     border-radius: 7px;
     display: flex;
-    padding: 2rem 4rem;
     justify-content: space-between;
 }
 
 .sign-up-banner > button {
-    min-width: 150px;
+    min-width: 120px;
     min-height: 20px;
     max-height: 50px;
     flex-shrink: 0;
     flex-grow: 0;
+}
+
+.sign-up-text-container {
+    flex: 1 1 auto;
 }
 
 .footer {
