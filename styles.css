@@ -16,6 +16,7 @@ body {
 @media (min-width: 768px) {
     .container {
         min-width: 768px;
+        max-width: 932px;
     }
 }
 
@@ -81,7 +82,7 @@ li {
 .hero-container {
     display: flex;
     justify-content: space-between;
-    padding: 0;
+    padding: 0 1rem;
     margin: 120px 0 120px;
 }
 
@@ -129,7 +130,7 @@ button {
 
 .information-container {
     background-color: white;
-    text-align: center;
+    padding: 0 1rem;
 }
 
 .information-main-text {
@@ -150,23 +151,30 @@ button {
 .info-cards {
     display: flex;
     justify-content: space-between;
-    padding: 0 300px;
+    padding: 0 1rem;
     margin-bottom: 120px;
 }
 
 .card {
     max-width: 170px;
     text-align: center;
+    width: 25%;
+}
+
+.card img {
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .quote-container {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
+    padding: 1rem;
 }
 
 .quote-box {
-    max-width: 55%;
+    width: 90%;
     padding: 0;
 }
 
@@ -177,6 +185,7 @@ button {
     font-style: oblique;
     color: #1F2937;
     margin-top: 130px;
+    margin-bottom: 1rem;
 }
 
 .quote-signature-text {
@@ -190,7 +199,7 @@ button {
 
 .sign-up-container {
     background-color: white;
-    padding: 80px 210px;
+    padding: 80px 1rem;
 }
 
 .sign-up-banner {
